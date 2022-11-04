@@ -1,0 +1,150 @@
+body {
+    background-color: #ecd8e9;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*//////////////////////////////////////////////////////////////// HEADER ///////////////////////////////////////////////////////////////*/
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-logo-viola {
+    color: rgb(212, 0, 255);
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav-item {
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgb(94, 84, 84);
+}
+
+.header-nav-link:hover {
+    color: red;
+}
+
+
+/*////////////////////////////////////////////////////////////// END OF HEADER ///////////////////////////////////////////////////////////// */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: rgb(94, 84, 84);
+    margin: 0 auto;
+}
+
+.about-us-2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: rgb(94, 84, 84);
+     margin-top:10px;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+}
+
+
+.about-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+}
+
+.about-list {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////// FOOTER ///////////////////////////////////////////////////////////////// */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 100px;
+    background-color:rgb(50, 47, 51);
+    padding: 15px;
+    color: white;
+}
